@@ -1,3 +1,12 @@
+Simple repo for fast docker container builds. 
+
+All the docker doco is like haystack needles, so here's a quick and dirty repo that ONLY provides:
+1 - a simple Dockerfile
+2 - a cheatsheet (this readme, see below)
+3 - a share/ directory for moving files/repos/data/etc between your local machine and the docker container
+
+
+###############################################################
 clone repo
 tweak Dockerfile for your uses (e.g. python or ubuntu or node or etc)
 
