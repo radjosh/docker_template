@@ -1,0 +1,4 @@
+docker build -t my-image --no-cache .
+
+
+docker run -d -it -p 8000:3000 -v /run/host-services/ssh-auth.sock:/ssh-agent -e SSH_AUTH_SOCK='/ssh-agent' -v ./share:/root/share -v ~/.gitconfig:/etc/gitconfig --name my-container my-image
